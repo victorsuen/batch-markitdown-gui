@@ -1,0 +1,5 @@
+markitdown[all]
+tkinterdnd2
+rapidocr-onnxruntime
+pypdfium2
+numpy

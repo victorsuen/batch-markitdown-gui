@@ -33,7 +33,7 @@ Depends on MarkItDown installed extras, commonly:
 Install dependencies:
 
 ```bash
-pip install "markitdown[all]" tkinterdnd2 rapidocr-onnxruntime pypdfium2 numpy
+pip install -r requirements.txt
 ```
 
 ## CLI Usage
@@ -74,6 +74,10 @@ Output EXE will be under:
 
 `dist/BatchMarkItDownGUI.exe`
 
+## Download EXE
+
+Use the latest binary from GitHub Releases.
+
 ## Notes
 
 - Scanned PDFs with no text layer require OCR; this app auto-fallbacks to OCR for such PDFs.
@@ -82,5 +86,5 @@ Output EXE will be under:
 
 ## License
 
-For personal/internal use. Add your preferred license file if you plan to distribute publicly.
+MIT
 
