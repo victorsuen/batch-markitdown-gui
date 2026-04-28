@@ -78,6 +78,10 @@ Output EXE will be under:
 
 Use the latest binary from GitHub Releases.
 
+## Release Process
+
+See `RELEASE_CHECKLIST.md` for the step-by-step release workflow.
+
 ## Notes
 
 - Scanned PDFs with no text layer require OCR; this app auto-fallbacks to OCR for such PDFs.
